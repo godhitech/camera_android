@@ -1,0 +1,13 @@
+NOTE:
+- Add try - catch in file Camera.java: 
+    - method onClosed(@NonNull CameraDevice camera) line 413 -> 424
+    - method stopVideoRecording() line 887
+    - method closeCaptureSession() line 1311 -> 1320
+    - method close() line 1324 -> 1346
+    - method stopAndReleaseCamera() line 1350 -> 1364
+    - method setFocusPoint at line 1059 -> 1072
+- Add try - catch in file FocusPointFeature.java:
+    - method setCameraBoundaries at line 46 -> 51
+    - method setValue at line 69 -> 74
+    - method updateBuilder at line 86 -> 95
+- Comment code in file Camera.java from line 647 -> 653, add line 654
