@@ -43,16 +43,16 @@ public final class CameraPlugin implements FlutterPlugin, ActivityAware {
    * <p>Calling this automatically initializes the plugin. However plugins initialized this way
    * won't react to changes in activity or context, unlike {@link CameraPlugin}.
    */
-  @SuppressWarnings("deprecation")
-  public static void registerWith(
-      @NonNull io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
-    CameraPlugin plugin = new CameraPlugin();
-    plugin.maybeStartListening(
-        registrar.activity(),
-        registrar.messenger(),
-        registrar::addRequestPermissionsResultListener,
-        registrar.view());
-  }
+//  @SuppressWarnings("deprecation")
+//  public static void registerWith(
+//      @NonNull io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
+//    CameraPlugin plugin = new CameraPlugin();
+//    plugin.maybeStartListening(
+//        registrar.activity(),
+//        registrar.messenger(),
+//        registrar::addRequestPermissionsResultListener,
+//        registrar.view());
+//  }
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
